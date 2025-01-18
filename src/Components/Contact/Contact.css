@@ -1,0 +1,54 @@
+.ContactUs{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.contact-address{
+    margin-top: 0.5em;
+}
+
+/* .contact{
+
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+*/
+.contact-col{
+    margin-top:2em ;
+} 
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.SendUs{
+    text-align: left;
+}
+
+.contact-col span{
+
+    display: block;
+    margin: 20px 0;
+}
+
+/* media-queary */
+
+@media(max-width:700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}

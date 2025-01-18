@@ -1,0 +1,29 @@
+.programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.program img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+   
+}
+
+/* media queary */
+
+@media(max-width:650px){
+    .programs{
+
+        flex-basis: 100% ;
+        margin: 20px;
+    }
+}
+
